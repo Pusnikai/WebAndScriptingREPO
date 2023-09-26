@@ -1,0 +1,122 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+body {
+    padding: 5%;
+}
+
+h1,
+h2,
+p,
+label,
+input,
+textarea {
+    color: darkgray;
+}
+
+.navbar {
+    font-family: 'Courier New';
+    color: crimson;
+    display: inline;
+}
+
+.Title-Logo {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Courier New';
+    color: crimson;
+    font-weight: bold;
+    text-shadow: 10px;
+    transition: 1s ease-in-out;
+}
+
+span {
+    margin-left: 5px;
+    color: rgb(193, 193, 193);
+    transition: 0.8s ease-in;
+}
+
+.Title-Logo:hover,
+span:hover {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    color: darkgrey;
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: crimson;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.navigation {
+    color: crimson;
+    text-align: center;
+    size: 100px;
+    padding: 25px;
+    text-shadow: 10px;
+}
+
+.Home {
+    padding: 10%;
+}
+
+.Home h1 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.Home h2 {
+    font-family: 'Courier New';
+    font-weight: lighter;
+}
+
+.Home .Name .info-greet {
+    text-align: center;
+}
+
+.Home .info-greet {
+    color: crimson;
+    transition: 5s ease-in;
+}
+
+.About {
+    text-align: center;
+    padding: 5%;
+    overflow: auto;
+}
+
+.About p {
+    text-align: justify;
+    padding: 1%;
+}
