@@ -91,6 +91,7 @@ a:hover {
 }
 
 .Home h1 {
+    font-size: 50px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
     font-style: oblique;
@@ -99,6 +100,35 @@ a:hover {
 .Home h2 {
     font-family: 'Courier New';
     font-weight: lighter;
+}
+
+.Home .greeting {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 2s steps(40, end) forwards, blinking 0.5s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        border-right-color: transparent
+    }
+    50% {
+        border-right-color: darkgray
+    }
+    100% {
+        border-right-color: transparent
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
 }
 
 .Home .Name .info-greet {
