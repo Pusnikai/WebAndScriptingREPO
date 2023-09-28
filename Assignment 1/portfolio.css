@@ -1,7 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
-    background-color: black;
+    background-color: #111111;
 }
 
 body {
@@ -87,6 +87,7 @@ a:hover {
 }
 
 .Home {
+    text-align: center;
     padding: 10%;
 }
 
@@ -110,6 +111,50 @@ a:hover {
     animation: typing 2s steps(40, end) forwards, blinking 0.5s infinite;
 }
 
+.Home .Name .info-greet {
+    text-align: center;
+}
+
+.Home .info-greet {
+    color: crimson;
+    transition: 2s ease-in-out;
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.About img {
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.About p {
+    max-width: 70%;
+    margin: auto;
+    top: 50%;
+    text-align: justify;
+    font-size: 150%;
+    padding: 5%;
+    overflow: auto;
+    flex-grow: inherit;
+}
+
+@media screen and (max-width: 1000px) {
+    .About p {
+        font-size: 100%;
+        overflow: auto;
+    }
+    .About img {
+        float: top;
+    }
+}
+
 @keyframes blinking {
     0% {
         border-right-color: transparent
@@ -129,24 +174,4 @@ a:hover {
     to {
         width: 100%
     }
-}
-
-.Home .Name .info-greet {
-    text-align: center;
-}
-
-.Home .info-greet {
-    color: crimson;
-    transition: 5s ease-in;
-}
-
-.About {
-    text-align: center;
-    padding: 5%;
-    overflow: auto;
-}
-
-.About p {
-    text-align: justify;
-    padding: 1%;
 }
