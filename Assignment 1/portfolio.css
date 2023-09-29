@@ -1,11 +1,11 @@
 * {
     margin: 0%;
     padding: 0%;
-    background-color: #111111;
+    background-color: #000000;
 }
 
 body {
-    padding: 5%;
+    padding: 0%;
 }
 
 h1,
@@ -67,7 +67,7 @@ a {
 
 .nav-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -160,6 +160,13 @@ a:hover {
     .About img {
         width: 50%;
         height: 50%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .nav-list {
+        flex-direction: row;
+        display: flex;
     }
 }
 
