@@ -4,9 +4,8 @@
     background-color: #000000;
 }
 
-body {
-    padding: 0%;
-}
+
+/* giving my text element font colour */
 
 h1,
 h2,
@@ -17,11 +16,8 @@ textarea {
     color: darkgray;
 }
 
-.navbar {
-    font-family: 'Courier New';
-    color: crimson;
-    display: inline;
-}
+
+/* designing my title logo with animation */
 
 .Title-Logo {
     display: inline-block;
@@ -41,6 +37,9 @@ span {
     transition: 0.8s ease-in;
 }
 
+
+/* for the glow effect inspired from source specified in readme file */
+
 .Title-Logo:hover,
 span:hover {
     text-align: center;
@@ -48,17 +47,22 @@ span:hover {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
 }
 
+
+/* Start of my nav bar work */
+
 li {
     display: inline-block;
     padding: 0px 30px;
 }
+
+
+/* styled abit and added transition for change in font size back after on hover */
 
 a {
     display: inline-block;
     text-align: center;
     color: darkgrey;
     font-weight: bold;
-    font-family: 'Courier New';
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-decoration: none;
@@ -71,6 +75,9 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+
+/*changes font size on hover and colour, look more fluid like */
 
 a:hover {
     color: crimson;
@@ -85,6 +92,9 @@ a:hover {
     padding: 25px;
     text-shadow: 10px;
 }
+
+
+/* start of Home page styling */
 
 #Home {
     text-align: center;
@@ -102,6 +112,12 @@ a:hover {
     font-family: 'Courier New';
     font-weight: lighter;
 }
+
+
+/* inspo from source cited inreadme file */
+
+
+/* animating my greeting in typing style used transition for the fun of it */
 
 #Home .greeting {
     overflow: hidden;
@@ -175,6 +191,21 @@ a:hover {
     font-weight: bolder;
 }
 
+button {
+    animation: ease;
+    color: darkgray;
+    padding: 10px 20px;
+    text-align: center;
+    transition: 1s;
+}
+
+button:hover {
+    animation: ease-in-out;
+    background-color: crimson;
+    color: black;
+    transition: 0.5s;
+}
+
 .contact_Info img {
     width: 25%;
 }
@@ -208,6 +239,10 @@ footer {
     padding: 5%;
     text-align: center;
 }
+
+
+/* useed @media and @keyframe to make my webpage look nice in all platform and dimensions
+    also used keyframe for the text animation from my home page where i greet. source cited in readmefile */
 
 @media screen and (max-width: 1000px) {
     #Home {
