@@ -137,6 +137,9 @@ a:hover {
     transition: 2s ease-in-out;
 }
 
+
+/*  About me page styling to look good */
+
 #About {
     display: flex;
     flex-direction: column;
@@ -161,6 +164,9 @@ a:hover {
     overflow: auto;
     flex-grow: inherit;
 }
+
+
+/*  my project page, added an topic, description and hyperlink */
 
 #Projects {
     text-align: center;
@@ -202,6 +208,9 @@ a:hover {
 .topic {
     font-weight: bolder;
 }
+
+
+/*  contact me page with picture me style to be next to the contact form */
 
 .contact_Info img {
     width: 25%;
