@@ -247,8 +247,7 @@ footer {
 }
 
 
-/* useed @media and @keyframe to make my webpage look nice in all platform and dimensions
-    also used keyframe for the text animation from my home page where i greet. source cited in readmefile */
+/* useed @media and @keyframe to make my webpage look nice in all platform and dimensions */
 
 @media screen and (max-width: 1000px) {
     #Home {
@@ -278,6 +277,9 @@ footer {
         display: flex;
     }
 }
+
+
+/* also used keyframe for the text animation from my home page where i greet. source cited in readmefile, only learned about keyframe at the begining of the project */
 
 @keyframes blinking {
     0% {
