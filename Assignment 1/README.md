@@ -3,15 +3,18 @@
   
   Sources inspired, used and modified from,
 
+  For title logo glow effect. using on hover trnasition
   https://mdbootstrap.com/snippets/custom/ascensus/3613346?view=side#js-tab-view
 
+  for greeting animation on home page, used keyframes and animations
   https://blog.hubspot.com/website/typing-animation-css
 
+  Used w3school for small details and help with layout
   https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_about_page
 
   https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_section
 
   https://blog.logrocket.com/web-animation-with-html-css-and-javascript/
 
-  
+  https://www.w3docs.com/tools/code-editor/1044
 

@@ -167,6 +167,18 @@ a:hover {
     padding: 20px;
 }
 
+#Projects p {
+    padding: 10px;
+    display: block;
+    background-color: rgb(20, 20, 20);
+}
+
+#Projects h2 {
+    font-weight: bolder;
+    color: #000000;
+    background-color: darkgray;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -189,21 +201,6 @@ a:hover {
 
 .topic {
     font-weight: bolder;
-}
-
-button {
-    animation: ease;
-    color: darkgray;
-    padding: 10px 20px;
-    text-align: center;
-    transition: 1s;
-}
-
-button:hover {
-    animation: ease-in-out;
-    background-color: crimson;
-    color: black;
-    transition: 0.5s;
 }
 
 .contact_Info img {
